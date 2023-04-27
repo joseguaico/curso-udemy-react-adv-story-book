@@ -1,0 +1,2 @@
+Nota: Para evitar errores "Failed to fetch dynamically imported module" al desplegar en GitHubPages, 
+      se debe agregar un archivo ".nojekyll" en la raíz del directorio "docs".
