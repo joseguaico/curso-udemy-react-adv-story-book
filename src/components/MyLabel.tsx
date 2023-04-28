@@ -25,16 +25,19 @@ export interface MyLabelProps {
   */
   fontColor?: string
 
+  /**
+  * Corresponde al color de fondo del componente
+  */
+  backgroundColor?: string
+
 };
 
-export const MyLabel = ({label = 'No label', size = 'normal', allCaps = false, color = 'primary', fontColor}: MyLabelProps) => {
+export const MyLabel = ({label = 'No label', size = 'normal', allCaps = false, color = 'primary', fontColor, backgroundColor = 'transparent'}: MyLabelProps) => {
 
   return (
     <span 
       className={`label ${size} text-${color} ${allCaps === true ? 'text-capitalize': ''}  `}
-      style={{ color: fontColor}}
-
->
+      style={{ color: fontColor, backgroundColor}}>
         {label}
     </span>
   )

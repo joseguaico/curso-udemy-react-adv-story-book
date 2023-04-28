@@ -22,6 +22,9 @@ const meta: Meta<typeof MyLabel> = {
         },
         fontColor: {
             control: { type: 'color'}
+        },
+        backgroundColor: {
+            control: { type: 'color'}
         }
     }
 
@@ -38,4 +41,6 @@ export const Secondary: Story = { args: { label: 'This is a secondary label', si
 
 export const  Tertiary: Story = { args: { label: 'this is a tertiary text', color: 'tertiary'}}
 
-export const CustomFontColor: Story = {args: { size: 'h1', fontColor: '#778541'}}
+export const CustomFontColor: Story = { args: { size: 'h1', fontColor: '#778541'}}
+
+export const CustomBackground: Story = { args: { size: 'h2', fontColor: '#ffbf00', label: 'this is a text with background color', backgroundColor: '#212121'}}
