@@ -1,3 +1,4 @@
+import React from 'react';
 import './MyLabel.css';
 
 export interface MyLabelProps {

@@ -1,7 +1,7 @@
-export { Header } from "./stories/Header";
-export { Page } from "./stories/Page";
-export { MyLabel } from "./components/MyLabel";
-export { Button } from "./stories/Button";
+export * from "./stories/Header";
+export * from "./stories/Page";
+export * from "./components/MyLabel";
+export * from "./stories/Button";
 
 
 
