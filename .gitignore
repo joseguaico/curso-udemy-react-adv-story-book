@@ -12,6 +12,21 @@ dist
 dist-ssr
 *.local
 
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/dist
+/build
+/storybook-static
+
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
