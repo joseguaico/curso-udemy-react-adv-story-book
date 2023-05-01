@@ -4,6 +4,8 @@
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "declaration": true,
+    "declarationDir": "types",
+    "sourceMap": true,
     "allowJs": true,
     "module": "ESNext",
     "skipLibCheck": true,
